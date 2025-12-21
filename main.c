@@ -15,7 +15,13 @@ void CheckArmStrong();
 void SquarePattern();
 void RightTriangle();
 void InvertedTriangle();
-
+void Pyramid();
+void InvertedPyramid();
+void InvertedPyramindP();
+void Diamond();
+void IncreasingNumbers();
+void RepeatingNumbers();
+void FloydsTriangle();
 
 #pragma endregion
 
@@ -33,7 +39,15 @@ int main()
  //  CheckArmStrong();
    //  SquarePattern();
   //  RightTriangle();
-    InvertedTriangle();
+    //InvertedTriangle();
+  //  Pyramid();
+    //InvertedPyramind();
+ //   InvertedPyramid();
+  //  Diamond();
+   // IncreasingNumbers();
+   // RepeatingNumbers();
+   // FloydsTriangle();
+
   
 
     return 0;
@@ -225,21 +239,113 @@ void InvertedTriangle()
     }
 }
 
-void Pyramid()
-{
-    for (int i = 0; i < 4; i++)
-    {
-        for (int space = 0; space < 4; space++)
+void Pyramid() {
+    int i, j, space;
+    for (i = 1; i <= 10; i++) {
+        // spaces decrease each row
+        for (space = 1; space <= 10 - i; space++)
         {
-            for (int j = 0; j < 4; j++)
-            {
-
-            }
+            printf(" ");
         }
+        // stars increase each row
+        for (j = 1; j <= (2 * i - 1); j++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
     }
 }
 
+void InvertedPyramid() {
+    int i, j, space;
+    for (i = 10; i >= 1; i--) {
+        for (space = 1; space <= 10 - i; space++) {
+            printf(" ");
+        }
+        for (j = 1; j <= (2 * i - 1); j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+void Diamond()
+{
+    int i, j, space;
+    for ( i = 1; i <= 10; i++)
+    {
+        //space
+        for ( space = 1; space <= 10-i; space++)
+        {
+            printf(" ");
+        }
+        for ( j = 1; j <= (2*i-1); j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+   }
+    for (i = 10; i >=1 ;i--)
+    {
+        for ( space = 1; space <=10-i; space++)
+        {
+            printf(" ");
+        }
+        for ( j = 1; j <= (2*i-1); j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+
 #pragma endregion
+
+#pragma region Number Pattern Printing
+
+ void IncreasingNumbers()
+{
+     int i,j; 
+     for ( i = 1; i <=4; i++)
+     {
+         for ( j = 1; j <=i; j++)
+         {
+             printf("%d", j);
+         }
+         printf("\n");
+     }
+
+}
+
+ void RepeatingNumbers()
+ {
+     int i,j;
+     for ( i = 1; i <=4; i++)
+     {
+         for ( j = 1; j <=i+1; j++)
+         {
+             printf("%d", i);
+         }
+         printf("\n");
+     }
+ }
+
+ /*void FloydsTriangle()
+ {
+     int i, j;
+     for (i = 1; i <= 10; i++)
+     {
+         for (j = 1; j <i; j++)
+         {
+             printf("%d", j);
+         }
+         printf("\n");
+     }*/
+ }
+#pragma endregion
+
 
 
 
