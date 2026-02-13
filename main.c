@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿/*/*#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 #pragma region Function Declaration 
@@ -23,30 +23,31 @@ void IncreasingNumbers();
 void RepeatingNumbers();
 void FloydsTriangle();
 
+
+
 #pragma endregion
 
 
 int main()
 {
    
-    //AddTwoNum();
-    //SwapNum();
-   // SwapNumWithOutThirdVariable();
-   //  ConvetTemperature();
-   // CheckLeapYear();
- //   PrintNum();
-   // FibSeries();
- //  CheckArmStrong();
-   //  SquarePattern();
-  //  RightTriangle();
-    //InvertedTriangle();
-  //  Pyramid();
-    //InvertedPyramind();
- //   InvertedPyramid();
-  //  Diamond();
-   // IncreasingNumbers();
-   // RepeatingNumbers();
-   // FloydsTriangle();
+    AddTwoNum();
+    SwapNum();
+    SwapNumWithOutThirdVariable();
+     ConvetTemperature();
+    CheckLeapYear();
+    PrintNum();
+    FibSeries();
+   CheckArmStrong();
+     SquarePattern();
+    RightTriangle();
+    InvertedTriangle();
+    Pyramid();
+    InvertedPyramind();
+    InvertedPyramid();
+    Diamond();
+    IncreasingNumbers();
+    RepeatingNumbers();
 
   
 
@@ -65,7 +66,7 @@ void AddTwoNum()
     printf("Sum is %d", a + b);
 }
 
-// with third variable
+ with third variable
 void SwapNum()
 {
     int a, b, temp;
@@ -85,7 +86,7 @@ void SwapNum()
     
 }
 
-// Swap without third variable
+ Swap without third variable
 void SwapNumWithOutThirdVariable()
 {
     int a, b;
@@ -104,7 +105,7 @@ void SwapNumWithOutThirdVariable()
     printf("After Swaping a=%d , b=%d", a, b);
 }
 
-//Celcius to fahrenheit
+Celcius to fahrenheit
 void ConvetTemperature()
 {
     float temp;
@@ -230,7 +231,7 @@ void InvertedTriangle()
 {
     for (int i = 4; i >0; i--)
     {
-    //    printf("Iteration 1 value of i  %d \n", i);
+        printf("Iteration 1 value of i  %d \n", i);
         for (int j = 1; j <= i; j++)
         {
             printf("*");
@@ -242,12 +243,12 @@ void InvertedTriangle()
 void Pyramid() {
     int i, j, space;
     for (i = 1; i <= 10; i++) {
-        // spaces decrease each row
+         spaces decrease each row
         for (space = 1; space <= 10 - i; space++)
         {
             printf(" ");
         }
-        // stars increase each row
+         stars increase each row
         for (j = 1; j <= (2 * i - 1); j++)
         {
             printf("*");
@@ -275,7 +276,7 @@ void Diamond()
     int i, j, space;
     for ( i = 1; i <= 10; i++)
     {
-        //space
+        space
         for ( space = 1; space <= 10-i; space++)
         {
             printf(" ");
@@ -342,10 +343,14 @@ void Diamond()
              printf("%d", j);
          }
          printf("\n");
-     }*/
+     }
  }
+#pragma endregion
+
+#pragma region Assignment
+
 #pragma endregion
 
 
 
-
+*/

@@ -1,6 +1,8 @@
-﻿  main.c
-D:\c programming code\Practice\BasicQuestions\main.c(1,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
-      D:\c programming code\Practice\BasicQuestions\main.c(1,9):
+﻿  test.c
+D:\c programming code\Practice\BasicQuestions\test.c(1,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+      D:\c programming code\Practice\BasicQuestions\test.c(1,9):
       '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
   
+D:\c programming code\Practice\BasicQuestions\test.c(64,5): warning C4098: 'LeapYear': 'void' function returning a value
+D:\c programming code\Practice\BasicQuestions\test.c(87,9): warning C4101: 'temp': unreferenced local variable
   BasicQuestions.vcxproj -> D:\c programming code\Practice\BasicQuestions\x64\Debug\BasicQuestions.exe
