@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+/*#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
@@ -11,11 +11,19 @@ void AddMatrix();
 void Transpose();
 void SubtractMatrix();
 
+void Square();
+void Square1(int n);
+int Square2();
+int Square3(int id);
+
+
+
 #pragma endregion
 
 int main()
 {
-     Transpose();
+    Square();
+    printf("\n");
     return 0;
 }
 
@@ -231,4 +239,42 @@ void Transpose()
 
 #pragma endregion
 
+#pragma region UserDefined function 
 
+void Square()
+{
+    int n;
+    printf("Enter the number : ");
+    scanf("%d", &n);
+
+    printf("Square of %d is %d", n, n * n);
+}
+
+void Square1(int n)
+{
+    printf("Enter the number : ");
+    scanf("%d", &n);
+
+    printf("Square of %d is %d", n, n * n);
+}
+
+int Square2()
+{
+    int n;
+    printf("Enter the number : ");
+    scanf("%d", &n);
+    return n * n;
+
+}
+
+int Square3(int n)
+{
+    printf("Enter the number : ");
+    scanf("%d", &n);
+    return n * n;
+}
+
+#pragma endregion
+
+
+*/

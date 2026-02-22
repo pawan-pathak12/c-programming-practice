@@ -21,6 +21,15 @@
     <ClCompile Include="test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="assignment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="patternprinting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PassingArraryToFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
