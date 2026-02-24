@@ -122,11 +122,108 @@ printf("\nTotal employees with salary between 5000 and 10000: %d\n", count);retu
     /*
     */
 
-    /*
-     */
+    
+    /*5. Write a C program to take 'n' numbers as input and sort them in both ascending and descending
+        order using an array
+  
+    int n, i, j, temp;
+
+    printf("Enter the size of array: ");
+    scanf("%d", &n);
+
+    int arr[n];
+    printf("Enter %d numbers:\n", n);
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Sort in ascending order (simple bubble sort)
+    for (i = 0; i < n - 1; i++) {
+        for (j = i + 1; j < n; j++) {
+            if (arr[i] > arr[j]) {
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+
+    // Print ascending order
+    printf("\nArray in ascending order:\n");
+    for (i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    // Print descending order (just reverse the sorted array)
+    printf("\nArray in descending order:\n");
+    for (i = n - 1; i >= 0; i--) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    return 0;
+       */
 
      /*
+     *7. Write a C program to find and display the transpose of a matrix (exchanging its rows with its
+        columns)
+
+        #include <stdio.h>
+
+int main() {
+    int rows, cols, i, j;
+
+    // Input matrix dimensions
+    printf("Enter number of rows and columns: ");
+    scanf("%d %d", &rows, &cols);
+
+    int matrix[rows][cols];
+    int transpose[cols][rows];  // transpose has swapped dimensions
+
+    // Input matrix elements
+    printf("Enter elements of the matrix:\n");
+    for (i = 0; i < rows; i++) {
+        for (j = 0; j < cols; j++) {
+            scanf("%d", &matrix[i][j]);
+        }
+    }
+
+    // Compute transpose
+    for (i = 0; i < rows; i++) {
+        for (j = 0; j < cols; j++) {
+            transpose[j][i] = matrix[i][j];
+        }
+    }
+
+    // Print original matrix
+    printf("\nOriginal Matrix:\n");
+    for (i = 0; i < rows; i++) {
+        for (j = 0; j < cols; j++) {
+            printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    // Print transpose
+    printf("\nTranspose of the Matrix:\n");
+    for (i = 0; i < cols; i++) {
+        for (j = 0; j < rows; j++) {
+            printf("%d ", transpose[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
       */
+
+/*
+*/
+
+/*
+*/
+
 
 
 }

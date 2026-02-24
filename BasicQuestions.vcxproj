@@ -24,6 +24,7 @@
     <ClCompile Include="PassingArraryToFunction.cpp" />
     <ClCompile Include="patternprinting.c" />
     <ClCompile Include="test.c" />
+    <ClCompile Include="Unit6Assignment.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
