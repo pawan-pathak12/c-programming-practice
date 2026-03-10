@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pointers">
+      <UniqueIdentifier>{52f4e422-3780-4c9a-89df-af6ab018b921}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -27,11 +30,29 @@
     <ClCompile Include="patternprinting.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PassingArraryToFunction.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Unit6Assignment.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\pointer_stage_1.c">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\pointer_stage_2.c">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\pointer_stage_3.c">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\pointer_stage_4.c">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\pointer_stage_5.c">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\pointer_stage_6.c">
+      <Filter>Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\pointer_stage_7.c">
+      <Filter>Pointers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

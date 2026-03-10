@@ -21,8 +21,14 @@
   <ItemGroup>
     <ClCompile Include="assignment.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="PassingArraryToFunction.cpp" />
     <ClCompile Include="patternprinting.c" />
+    <ClCompile Include="Pointers\pointer_stage_1.c" />
+    <ClCompile Include="Pointers\pointer_stage_2.c" />
+    <ClCompile Include="Pointers\pointer_stage_3.c" />
+    <ClCompile Include="Pointers\pointer_stage_4.c" />
+    <ClCompile Include="Pointers\pointer_stage_5.c" />
+    <ClCompile Include="Pointers\pointer_stage_6.c" />
+    <ClCompile Include="Pointers\pointer_stage_7.c" />
     <ClCompile Include="test.c" />
     <ClCompile Include="Unit6Assignment.cpp" />
   </ItemGroup>

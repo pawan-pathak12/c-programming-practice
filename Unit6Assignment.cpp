@@ -1,4 +1,5 @@
-#include<stdio.h>
+/*#include<stdio.h>
+#include<string.h>
 int main()
 {
 	/* 1
@@ -219,11 +220,71 @@ int main() {
       */
 
 /*
+* Write a program to read a square matrix and calculate the sum of its diagonal elements, also
+    known as the "trace" of the matrix.
+
 */
 
 /*
-*/
+int rows, cols, i, j;
 
+// Input matrix dimensions
+printf("Enter number of rows and columns: ");
+scanf("%d %d", &rows, &cols);
 
-
+if (rows != cols) {
+    printf("Error: Matrix must be square to calculate trace.\n");
+    return 0;
 }
+int a = rows;
+int matrix[rows][cols];
+int sum = 0;
+
+// Input matrix elements
+printf("Enter elements of the matrix:\n");
+for (i = 0; i < rows; i++) {
+    for (j = 0; j < cols; j++) {
+        scanf("%d", &matrix[i][j]);
+    }
+}
+
+// Calculate trace (sum of diagonal elements)
+for (i = 0; i < rows; i++) {
+    sum += matrix[i][i];  // only diagonal elements
+}
+
+printf("Sum of diagonal elements (Trace) = %d\n", sum);
+
+
+/*
+* -
+write a program that inputs a string from the user and counts the total number of vowels ('a', 'e', 'i', 'o', 'u') present in it.
+*/
+/*
+int count = 0;
+char input[100];
+int i;
+
+printf("Enter the string: ");
+scanf("%s", input);  // reads a single word (no spaces)
+
+// Loop through each character
+for (i = 0; i < strlen(input); i++) {
+    char ch = input[i];
+    if (ch == 'a' || ch == 'A' ||
+        ch == 'e' || ch == 'E' ||
+        ch == 'i' || ch == 'I' ||
+        ch == 'o' || ch == 'O' ||
+        ch == 'u' || ch == 'U') {
+        count++;
+    }
+}
+
+printf("Total number of vowels in string \"%s\" is %d\n", input, count);
+
+*/
+//return 0;
+//}
+
+
+
