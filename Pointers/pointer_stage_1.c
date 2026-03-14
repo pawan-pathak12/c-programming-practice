@@ -1,3 +1,4 @@
+/*
 #include<stdio.h>
 
 #include <stdlib.h>
@@ -250,10 +251,10 @@ employees from user and count the number of employees of age above 80 years
 	// Free allocated memory
 	free(ages);
 
-*/
+
 
 
 	return 0;
 }
-
+*/
 
