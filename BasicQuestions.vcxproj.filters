@@ -16,6 +16,12 @@
     <Filter Include="Pointers">
       <UniqueIdentifier>{52f4e422-3780-4c9a-89df-af6ab018b921}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Assignments">
+      <UniqueIdentifier>{c0de05b5-1334-47e3-9401-89a7062e39f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{e72ea5ab-f189-4bb0-8b03-1fd779ef372a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -36,23 +42,14 @@
     <ClCompile Include="Pointers\pointer_stage_1.c">
       <Filter>Pointers</Filter>
     </ClCompile>
-    <ClCompile Include="Pointers\pointer_stage_2.c">
+    <ClCompile Include="Assignment\unit7_part_II.c">
+      <Filter>Assignments</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers\practice.c">
       <Filter>Pointers</Filter>
     </ClCompile>
-    <ClCompile Include="Pointers\pointer_stage_3.c">
-      <Filter>Pointers</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointers\pointer_stage_4.c">
-      <Filter>Pointers</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointers\pointer_stage_5.c">
-      <Filter>Pointers</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointers\pointer_stage_6.c">
-      <Filter>Pointers</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointers\pointer_stage_7.c">
-      <Filter>Pointers</Filter>
+    <ClCompile Include="structure\strpractice.c">
+      <Filter>Structures</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

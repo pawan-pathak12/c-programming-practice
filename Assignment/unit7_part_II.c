@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 // 1. Circle calculations
 void circleCalculations(float r) {
@@ -88,3 +88,4 @@ int main() {
 
     return 0;
 }
+*/

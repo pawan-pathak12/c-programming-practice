@@ -1,8 +1,7 @@
-﻿  pointer_stage_1.c
-D:\c programming code\Practice\BasicQuestions\Pointers\pointer_stage_1.c(2,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
-      D:\c programming code\Practice\BasicQuestions\Pointers\pointer_stage_1.c(2,9):
+﻿  strpractice.c
+D:\c programming code\Practice\BasicQuestions\structure\strpractice.c(3,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+      D:\c programming code\Practice\BasicQuestions\structure\strpractice.c(3,9):
       '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
   
-D:\c programming code\Practice\BasicQuestions\Pointers\pointer_stage_1.c(154,6): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int (*)[3]'
-D:\c programming code\Practice\BasicQuestions\Pointers\pointer_stage_1.c(142,8): warning C4101: 'b': unreferenced local variable
+D:\c programming code\Practice\BasicQuestions\structure\strpractice.c(60,9): warning C4013: 'gets' undefined; assuming extern returning int
   BasicQuestions.vcxproj -> D:\c programming code\Practice\BasicQuestions\x64\Debug\BasicQuestions.exe
